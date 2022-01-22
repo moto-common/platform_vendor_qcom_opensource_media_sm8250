@@ -1,3 +1,4 @@
+ifneq ($(filter 4.19, $(KERNEL_VERSION)),)
 QCOM_MEDIA_ROOT := $(call my-dir)
 
 VIDC_STUB_HAL := false
@@ -20,4 +21,5 @@ include $(QCOM_MEDIA_ROOT)/mm-video-v4l2/Android.mk
 include $(QCOM_MEDIA_ROOT)/libc2dcolorconvert/Android.mk
 include $(QCOM_MEDIA_ROOT)/media-prop/Android.mk
 endif #VIDC_STUB_HAL
+endif
 endif
