@@ -1,4 +1,4 @@
-CONFIG_PATH := hardware/qcom/media/conf_files/lito
+CONFIG_PATH := vendor/qcom/opensource/media/sm8250/conf_files/lito
 #Bring all FEATURE FLAG (Compilation) here
 
 PRODUCT_COPY_FILES += \
