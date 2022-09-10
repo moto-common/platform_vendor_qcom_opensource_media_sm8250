@@ -1,4 +1,4 @@
-ifneq ($(filter 4.19, $(KERNEL_VERSION)),)
+ifneq ($(filter 4.19, $(TARGET_KERNEL_VERSION)),)
 QCOM_MEDIA_ROOT := $(call my-dir)
 
 VIDC_STUB_HAL := false
