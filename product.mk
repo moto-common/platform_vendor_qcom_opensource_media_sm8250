@@ -1,4 +1,4 @@
-MSM_VIDC_TARGET_LIST := kona lito bengal
+MSM_VIDC_TARGET_LIST := kona lito bengal sdm660
 
 #MM_CORE
 MM_CORE := libmm-omxcore
