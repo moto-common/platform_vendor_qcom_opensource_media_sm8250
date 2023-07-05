@@ -37,3 +37,6 @@ endif
 PRODUCT_PACKAGES += \
     libcodec2_vndk.vendor \
     libcodec2_hidl@1.0.vendor
+
+#Vendor property to enable Codec2 for audio and OMX for Video
+PRODUCT_PROPERTY_OVERRIDES += debug.stagefright.ccodec=1

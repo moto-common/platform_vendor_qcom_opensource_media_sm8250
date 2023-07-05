@@ -18,6 +18,3 @@ MM_VIDEO += init.qti.media.sh
 PRODUCT_PACKAGES += $(MM_VIDEO)
 
 include vendor/qcom/opensource/media/sm8250/conf_files/$(TARGET_BOARD_PLATFORM)/$(TARGET_BOARD_PLATFORM).mk
-
-#Vendor property to enable Codec2 for audio and OMX for Video
-PRODUCT_PROPERTY_OVERRIDES += debug.stagefright.ccodec=1
