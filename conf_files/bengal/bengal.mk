@@ -34,4 +34,3 @@ else
   $(warning "Enabling codec2.0 non-audio SW only for non-generic odm build variant")
   PRODUCT_PROPERTY_OVERRIDES += debug.stagefright.omx_default_rank=0
 endif
-PRODUCT_PROPERTY_OVERRIDES += debug.stagefright.ccodec=0
